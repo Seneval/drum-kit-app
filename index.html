@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1 class="title">Drum Kit</h1>
+        <div class="drum-buttons">
+            <button class="drum-button" data-sound="kick" aria-label="Kick Drum">Kick Drum</button>
+            <button class="drum-button" data-sound="ride" aria-label="Ride Cymbal">Ride Cymbal</button>
+            <button class="drum-button" data-sound="snare" aria-label="Snare Drum">Snare Drum</button>
+            <button class="drum-button" data-sound="tom" aria-label="Tom">Tom</button>
+            <button class="drum-button" data-sound="hihat" aria-label="Hi-Hat">Hi-Hat</button>
+        </div>
+
+        <!-- Audio elements (preloaded) -->
+        <audio id="kick" src="sounds/kick.wav" preload="auto"></audio>
+        <audio id="ride" src="sounds/ride.wav" preload="auto"></audio>
+        <audio id="snare" src="sounds/snare.wav" preload="auto"></audio>
+        <audio id="tom" src="sounds/tom.wav" preload="auto"></audio>
+        <audio id="hihat" src="sounds/hihat.wav" preload="auto"></audio>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
